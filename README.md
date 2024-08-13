@@ -33,6 +33,35 @@ You may also see any errors in the console.
 
 Documentation for the project is available on [https://wendor-backend.vercel.app/](https://wendor-backend.vercel.app/)
 
+## Screenshots
+
+### Documentation
+
+![Documentation](/backend/public/screenshots/documentation.png)
+
+Below are the screenshots for the testing of every API endpoint:
+
+#### Register User - /auth/register
+![Register User](/backend/public/screenshots/register_user.png)
+
+#### Login User - /auth/login
+![Login User](/backend/public/screenshots/login_user.png)
+
+#### Logout User - /auth/logout
+![Logout User](/backend/public/screenshots/logout.png)
+
+#### Get All Inventory - /shopper/inventory
+![Get Inventory](/backend/public/screenshots/get_all_inventory.png)
+
+#### Buy Items - /shopper/inventory/:id/buy
+![Buy Items](/backend/public/screenshots/buy_items.png)
+
+#### Create Bulk Items - /admin
+![Create Bulk Items](/backend/public/screenshots/bulk_create.png)
+
+#### Update Item - /admin/:id
+![Update Item](/backend/public/screenshots/update_item.png)
+
 ## Deployment
 
 The API has been hosted on Vercel and is integrated with CI/CD and serverless hosting.
