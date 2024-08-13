@@ -37,30 +37,30 @@ Documentation for the project is available on [https://wendor-backend.vercel.app
 
 ### Documentation
 
-![Documentation](/backend/public/screenshots/documentation.png)
+![Documentation](/public/screenshots/documentation.png)
 
 Below are the screenshots for the testing of every API endpoint:
 
 #### Register User - /auth/register
-![Register User](/backend/public/screenshots/register_user.png)
+![Register User](/public/screenshots/register_user.png)
 
 #### Login User - /auth/login
-![Login User](/backend/public/screenshots/login_user.png)
+![Login User](/public/screenshots/login_user.png)
 
 #### Logout User - /auth/logout
-![Logout User](/backend/public/screenshots/logout.png)
+![Logout User](/public/screenshots/logout.png)
 
 #### Get All Inventory - /shopper/inventory
-![Get Inventory](/backend/public/screenshots/get_all_inventory.png)
+![Get Inventory](/public/screenshots/get_all_inventory.png)
 
 #### Buy Items - /shopper/inventory/:id/buy
-![Buy Items](/backend/public/screenshots/buy_items.png)
+![Buy Items](/public/screenshots/buy_items.png)
 
 #### Create Bulk Items - /admin
-![Create Bulk Items](/backend/public/screenshots/bulk_create.png)
+![Create Bulk Items](/public/screenshots/bulk_create.png)
 
 #### Update Item - /admin/:id
-![Update Item](/backend/public/screenshots/update_item.png)
+![Update Item](/public/screenshots/update_item.png)
 
 ## Deployment
 
