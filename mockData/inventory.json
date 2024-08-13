@@ -1,0 +1,17 @@
+{
+    "items": [
+      {
+        "name": "Five Star",
+        "price": 10,
+        "available_units": 2,
+        "display_image_url": "http://example.com/images/five_star.jpg"
+      },
+      {
+        "name": "Cadbury",
+        "price": 15,
+        "available_units": 5,
+        "display_image_url": "http://example.com/images/cadbury.jpg"
+      }
+    ]
+  }
+  
