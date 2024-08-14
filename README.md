@@ -6,11 +6,11 @@ This project was created using Node.js, ExpressJS, Mongoose and MongoDB. It uses
 
 To run this project, in the project directory, run:
 
-### `npm install`
+#### `npm install`
 
 Installs all the dependencies required to run the project.
 
-### Set up the .env folder in project root directory
+#### Set up the .env folder in project root directory
 
 Set up these environment variables:
 - `MONGO_URI` - MongoDB connection string
@@ -21,17 +21,19 @@ Set up these environment variables:
 
 Then run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open http://localhost:< PORT > to view it in your browser.
+
+If the PORT variable is not defined in the `.env` file, the server will run on http://localhost:8000 by default.
 
 The page will reload when you make changes.\
 You may also see any errors in the console.
 
 ## Documentation
 
-Documentation for the project is available on [https://wendor-backend.vercel.app/](https://wendor-backend.vercel.app/)
+Documentation for the project is available on [https://wendor-backend-sigma.vercel.app/](https://wendor-backend-sigma.vercel.app/)
 
 ## Screenshots
 

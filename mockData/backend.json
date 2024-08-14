@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "0d0541b2-24d6-4d90-9d6d-fe369b0c83cf",
+		"name": "Wendor Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19037233"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"abhi\",\n    \"email\": \"abhi@gmail.com\",\n    \"password\": \"secret\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/auth/register",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"susan@gmail.com\",\n    \"password\": \"secret\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/auth/login",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/auth/logout",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Shopper",
+			"item": [
+				{
+					"name": "Get all inventory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/shopper/inventory",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"shopper",
+								"inventory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy items",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quantity\": 3\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/shopper/inventory/66b5f6248ff0f455224af37a/buy",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"shopper",
+								"inventory",
+								"66b5f6248ff0f455224af37a",
+								"buy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Bulk Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"name\": \"Maggi\",\n      \"price\": 14,\n      \"available_units\": 15,\n      \"display_image_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn97QOSDjR2r8pQ4VI62jV1iDa9JeQuLwp3Q&s\"\n    }\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/admin/",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update items",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"available_units\": 20\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://wendor-backend-sigma.vercel.app/api/admin/66b5f6248ff0f455224af37a",
+							"host": [
+								"https://wendor-backend-sigma.vercel.app/api"
+							],
+							"path": [
+								"admin",
+								"66b5f6248ff0f455224af37a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "testing env",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"items\": [\n    {\n      \"name\": \"Maggi\",\n      \"price\": 14,\n      \"available_units\": 15,\n      \"display_image_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn97QOSDjR2r8pQ4VI62jV1iDa9JeQuLwp3Q&s\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wendor-backend-sigma.vercel.app/api/shopper/inventory",
+					"protocol": "https",
+					"host": [
+						"wendor-backend-sigma",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"shopper",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
