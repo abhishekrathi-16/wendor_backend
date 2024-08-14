@@ -52,6 +52,7 @@ app.use(
       }
     },
     credentials: true, // Enable credentials (cookies, authorization headers)
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   })
 );
 
@@ -72,7 +73,7 @@ app.use("/api/shopper", shopperRouter);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
