@@ -6,6 +6,12 @@ This project was created using Node.js, ExpressJS, Mongoose and MongoDB. It uses
 
 To run this project, in the project directory, run:
 
+Migrate to the folder/directory where you want to clone the project. Then run the following commands in the terminal:
+
+#### `git clone https://github.com/mytestaccount-1/wendor_backend.git`
+
+Clones the repository on your system
+
 #### `npm install`
 
 Installs all the dependencies required to run the project.
