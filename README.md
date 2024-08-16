@@ -8,7 +8,7 @@ To run this project, in the project directory, run:
 
 Migrate to the folder/directory where you want to clone the project. Then run the following commands in the terminal:
 
-#### `git clone https://github.com/mytestaccount-1/wendor_backend.git`
+#### `git clone https://github.com/abhishekrathi-16/wendor_backend.git`
 
 Clones the repository on your system
 
