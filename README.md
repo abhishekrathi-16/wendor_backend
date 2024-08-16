@@ -2,6 +2,11 @@
 
 This project was created using Node.js, ExpressJS, Mongoose and MongoDB. It uses Ably for websockets, which is a third party app that allows usage of websockets without the need to host them seperately.
 
+## Demo
+
+Watch the walkthrough of the project and know about its features
+[![Watch the video](https://drive.google.com/file/d/1K7lnMVG3u-wKu9KsatWrOoH6IXY2USoU/view?usp=sharing)](https://drive.google.com/file/d/1KMEM-vfWiCvTFoaYjPakT0YsxkB9Y4rX/view?usp=sharing)
+
 ## Available Scripts
 
 To run this project, in the project directory, run:
