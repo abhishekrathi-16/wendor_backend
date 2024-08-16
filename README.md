@@ -25,6 +25,8 @@ Set up these environment variables:
 - `JWT_SECRET` - Secret key to sign the JWT tokens
 - `JWT_LIFETIME` - Define the validity of JWT token
 
+The values of the environment variables have been mentioned in the `app.js` file in comments. Kindly use the values provided for properly running the app.
+
 Then run:
 
 #### `npm start`

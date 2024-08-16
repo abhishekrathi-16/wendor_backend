@@ -73,6 +73,14 @@ app.use("/api/shopper", shopperRouter);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
+// The .env file should have these variables defined with the given values.
+
+// MONGO_URI = mongodb+srv://rathiabhishek53:tg5oRqnsUJChqopA@wendorassignment.ynsywmj.mongodb.net/?retryWrites=true&w=majority&appName=WendorAssignment
+// PORT = 8000
+// JWT_SECRET = jwtSecret 
+// JWT_LIFETIME = 1d
+// ABLY_KEY = oIzOJg.mRFTmg:iqYsKUyO3m_un_1UZXxoGdoxKQif3ZCqeFr56esZP2A
+
 const port = process.env.PORT || 8000;
 const start = async () => {
   try {
